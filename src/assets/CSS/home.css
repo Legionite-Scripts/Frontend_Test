@@ -5,4 +5,8 @@
     background: #fefffe !important;
     overflow: none !important;
 }
-
+.home > .main-home{
+  height: 100vh;
+  width: 100%;
+  /* background: green; */
+}

@@ -1,16 +1,18 @@
 /* SideNav */
+* {
+  user-select: none;
+  -webkit-user-drag: none !important;
+}
 .sidenav {
-  width: 6vw;
   height: 100vh;
   border-right: 1.5px solid #dddcdd;
   overflow: none !important;
+  @media (width<768px) {
+    display: none !important;
+  }
 }
 .sidenav > div:nth-of-type(1) {
   width: 100%;
-  /* border: 1px solid #000; */
-}
-.sidenav > div:nth-of-type(1) > img {
-  height: 100%;
 }
 .sidenav > p:nth-of-type(1) {
   color: #838283;
@@ -19,12 +21,43 @@
 
 .sidenav > .icons > img,
 .sidenav > .bottom-icons > img {
-  width: 30%;
-  user-select: none;
-  -webkit-user-drag: none !important;
   cursor: pointer;
   image-rendering: optimizeQuality;
 }
 .sidenav > .bottom-icons {
   margin-top: auto;
+}
+/*  */
+/*  */
+/*  */
+/* TopNav */
+.topNav {
+  height: 10vh;
+  width: 100%;
+  color: #010001;
+  border-bottom: 1.5px solid #dddcdd;
+  @media (width<768px) {
+    height: auto;
+    width: 100vw;
+  }
+}
+.topNav > div:nth-of-type(1) {
+  height: 100%;
+  width: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
+.topNav > div > a {
+  margin-right: 5em;
+  @media (width<768px) {
+    display: none !important;
+  }
+}
+.topNav > div > div > p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.topNav > div > div > p:nth-of-type(2) {
+  font-size: 0.9em;
+  color: #666767;
 }
