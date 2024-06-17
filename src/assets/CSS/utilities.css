@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  padding: 0 1em 0 1em;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.onboarding-bg {
+  background: linear-gradient(to right, #fee0e6, #fff8fa);
+}
