@@ -88,12 +88,17 @@ The project structure is organized as follows:
 The following npm scripts are available in this project:
 
 `npm run dev`: Starts the development server with Vite and hot module replacement enabled. 
+
 `npm run build`: Builds the production version of the application, optimized for deployment.
+
 `npm run preview`: Previews the built application locally before deployment.
+
 `npm run test`: Runs the test suite for the application (if tests are set up).
+
 `npm run lint`: Lints the code for syntax and style errors (if a linter is configured).
 
 You can run these scripts using `npm run [script-name]` in your terminal or command prompt.
+
 `README.md`: This file contains documentation about the project, including setup instructions and other relevant information.
 
 
