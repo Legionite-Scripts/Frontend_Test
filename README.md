@@ -27,7 +27,7 @@ This command will install all the project dependencies listed in the package.jso
 To start the development server with Vite, run the following command:
 `npm run dev`
 
-This command will start the development server and automatically open your default web browser with the application running at `http://localhost:5173.`
+This command will start the development server and automatically open your default web browser with the application running at `http://localhost:5173.`<br>
 If the browser doesn't open automatically, you can manually visit `http://localhost:5173` to access the application.
 
 ## 5. Building for Protection
