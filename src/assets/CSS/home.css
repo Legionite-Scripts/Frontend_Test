@@ -3,7 +3,6 @@
   }
   .home {
     background: #fefffe !important;
-    overflow: none !important;
     overflow: hidden !important;
 }
 .home > .main-home{

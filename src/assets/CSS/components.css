@@ -8,8 +8,7 @@
   border-right: 1.5px solid #dddcdd;
   overflow: none !important;
   @media (width<768px) {
-    padding-top: none !important;
-    overflow: auto;
+    overflow-y: auto;
   }
 }
 .sidenav > div:nth-of-type(1) {
