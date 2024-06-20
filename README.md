@@ -38,7 +38,7 @@ This command will create an optimized and minified build of the React applicatio
 
 ## 6. Project Structure
 The project structure is organized as follows:
-`
+
 my-react-vite-project/
 ├── node_modules/
 ├── public/
@@ -55,4 +55,4 @@ my-react-vite-project/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-`
+
