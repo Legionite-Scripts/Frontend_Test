@@ -24,3 +24,35 @@ To install the project dependencies, follow these steps:
 This command will install all the project dependencies listed in the package.json file.
 
 ## 4. Development Server
+To start the development server with Vite, run the following command:
+`npm run dev`
+
+This command will start the development server and automatically open your default web browser with the application running at `http://localhost:5173.`
+If the browser doesn't open automatically, you can manually visit `http://localhost:5173` to access the application.
+
+## 5. Building for Protection
+To create a production build of the application, run the following command:
+`npm run build`
+
+This command will create an optimized and minified build of the React application in the `dist` folder. The production build is ready for deployment and can be served using a static file server or hosted on a platform like Netlify or Vercel.
+
+## 6. Project Structure
+The project structure is organized as follows:
+`
+my-react-vite-project/
+├── node_modules/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+`
