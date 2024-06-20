@@ -101,4 +101,5 @@ You can run these scripts using `npm run [script-name]` in your terminal or comm
 
 `README.md`: This file contains documentation about the project, including setup instructions and other relevant information.
 
-
+## 8. Environment Variables<br>
+This project does not require any environment variables to be set up. However, if you need to add environment variables in the future, you can create a .env file in the root directory of the project and define your variables there.
