@@ -58,3 +58,19 @@ The project structure is organized as follows:
 └── README.md
 </pre>
 
+`node_modules/`: This folder contains all the installed project dependencies. 
+`public/`: This folder contains the static assets and the entry point HTML file (index.html).
+`src/`: This folder contains the source code for the React application.
+
+`assets/`: This folder contains general styling code and images. 
+`components/`: This folder contains reusable React components.
+`pages/`: This folder contains the main pages or views of the application.
+`App.jsx`: This is the root component of the React application.
+`main.jsx`: This is the entry point of the application, where the React app is mounted.
+`index.css`: This file contains global styles for the application.
+`.gitignore`: This file specifies which files and folders should be ignored by Git.
+`package.json`: This file contains metadata about the project, including dependencies and scripts.
+`package-lock.json`: This file ensures consistent installation of dependencies across different environments.
+`vite.config.js`: This file contains configuration options for the Vite build tool.
+`README.md`: This file contains documentation about the project, including setup instructions and other relevant information.
+
