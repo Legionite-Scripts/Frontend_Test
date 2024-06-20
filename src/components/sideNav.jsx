@@ -1,4 +1,3 @@
-import "../assets/CSS/components.css";
 import logo from "../assets/Images/logo.png";
 import iconOne from "../assets/Images/nav-icons/icon-1.png";
 import iconTwo from "../assets/Images/nav-icons/icon-2.png";
@@ -14,7 +13,7 @@ import iconTen from "../assets/Images/nav-icons/icon-10.png";
 function SideNav() {
   return (
     <div className="sidenav text-center flexed-column p-2">
-      <div className="center mt-2 mb-4">
+      <div className="center mb-4">
         <img src={logo} alt="logo" className="mt-2" />
       </div>
       <p className="mb-4">MENU</p>

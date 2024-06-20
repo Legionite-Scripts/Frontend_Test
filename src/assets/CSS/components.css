@@ -8,8 +8,8 @@
   border-right: 1.5px solid #dddcdd;
   overflow: none !important;
   @media (width<768px) {
-  padding-top: none !important;
-  overflow: auto;
+    padding-top: none !important;
+    overflow: auto;
   }
 }
 .sidenav > div:nth-of-type(1) {
@@ -30,7 +30,6 @@
 }
 /*  */
 /*  */
-/*  */
 /* TopNav */
 .topNav {
   height: 10vh;
@@ -41,7 +40,6 @@
   @media (width<768px) {
     height: auto;
     width: 100%;
-    /* gap: 1em; */
   }
 }
 .topNav > div:nth-of-type(1) {
@@ -49,7 +47,7 @@
   width: auto;
   margin-left: auto;
   justify-content: space-between;
-  @media(width<768px) {
+  @media (width<768px) {
     width: 100%;
     margin-left: initial;
     margin-top: 1px;
@@ -73,20 +71,21 @@
 /*  */
 /* Compose Box */
 .composeBox {
-  width: 20vw;
+  width: 25vw;
   height: 100%;
   border-right: 1.5px solid #dddcdd;
-  @media(width<1000px){
+  overflow-y: auto !important;
+  @media (width<1000px) {
     display: none !important;
   }
 }
 .composeBox > button:nth-of-type(1) {
-  background-color: #004fff;
-  color: #ffffffff;
   width: 100%;
-  border-radius: 8px;
-  justify-content: center;
+  color: #ffffffff;
+  background-color: #004fff;
   font-weight: 500;
+  justify-content: center;
+  border-radius: 8px;
 }
 .composeBox > .dropdown > .dropdown-toggle {
   width: 100%;
@@ -102,12 +101,12 @@
   width: 100%;
   background-color: transparent;
   cursor: pointer;
+  color: #838283;
+  font-weight: 600;
   border-radius: 8px;
+  justify-content: space-between;
   animation: slideIn 0.3s ease-in-out;
   animation-fill-mode: both;
-  justify-content: space-between;
-  font-weight: 600;
-  color: #838283;
 }
 .composeBox > .dropdown > .dropdown-menu > button.dropdown-item * {
   color: #838283 !important;
@@ -123,7 +122,7 @@
 .composeBox > .dropdown > .dropdown-menu > button.dropdown-item:focus * {
   color: #010001 !important;
 }
-.composeBox > .dropdown > .dropdown-menu > button.dropdown-item:last-child *{
+.composeBox > .dropdown > .dropdown-menu > button.dropdown-item:last-child * {
   font-weight: 600 !important;
 }
 
@@ -139,12 +138,86 @@
 }
 /*  */
 /*  */
-/*  */
-.mailList{
-  width: 20vw;
+/* MailList */
+.mailList {
+  width: 30vw !important;
   height: 100%;
-  border: 1px solid #f00;
-  @media(width<768px) {
+  border-right: 1.5px solid #dddcdd;
+  overflow-y: auto !important;
+  @media (width<1200px) {
     display: none !important;
   }
+}
+.mailList > input {
+  width: 100%;
+  border: none;
+  background-color: #f4f4f5;
+  border-radius: 7px;
+  background-repeat: no-repeat;
+  background-position: left 10px center, right 10px center; /* Adjust the positioning values as needed */
+  background-size: 16px, 16px; /* Set the size of the icons */
+  background-image: url("../Images/mail-list-icons/search.png"),
+    url("../Images/mail-list-icons/filter-lines.png");
+  padding: 10px 30px 10px 30px;
+}
+.mailList > input::placeholder {
+  text-indent: 30px;
+  margin-right: auto;
+}
+.mailList > div:nth-of-type(1) {
+  width: 100%;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+  @media (width<768px) {
+    flex-direction: column;
+  }
+}
+.mailList > div:nth-of-type(1) > select {
+  width: 48%;
+  border: 1px solid #dcdddd;
+  border-radius: 50px;
+  color: #4e4e4f;
+  background: none !important;
+  @media (width<1200px) {
+    width: 100% !important;
+  }
+}
+.mailList > .mails {
+  width: 100%;
+  overflow-y: auto;
+}
+/*  */
+/*  */
+/* Mail */
+.mail {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.mail:last-child {
+  margin-bottom: 100px;
+}
+.mail > div > h3 {
+  color: #010001;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-break: anywhere;
+}
+.mail > p {
+  color: #666666;
+  font-weight: 500;
+}
+.mail:hover {
+  background-color: #f6f7f6;
+}
+.mail > div:nth-of-type(1) {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mail > div:nth-of-type(1) > div * {
+  color: #737373 !important;
+}
+.mail > div:nth-of-type(1) > div > img {
+  height: 50%;
 }

@@ -1,5 +1,7 @@
 @import url("./font.css");
 @import url("./utilities.css");
+@import url("./components.css");
+@import url("./home.css");
 .m-1 {
   margin: 10px;
 }

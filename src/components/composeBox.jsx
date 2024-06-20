@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../assets/CSS/components.css";
 import dropdownIcon from "../assets/Images/dropdown-icon.png";
 import addIcon from "../assets/Images/add-circle.png";
 import messagesIcon from "../assets/Images/composebox-icons/message-icon.png";
@@ -109,9 +108,9 @@ function ComposeBox() {
       <div className="dropdown">
         <button
           onClick={toggleDropdown2}
-          className="dropdown-toggle pt-1 pb-1 flexed-row center"
+          className="dropdown-toggle pt-1 pb-1 flexed-row center text-center"
         >
-          <img src={dropdownIcon} alt="Dropdown Icon" />
+          <img src={dropdownIcon} alt="Dropdown Icon"/>
           &nbsp; Direct Message
         </button>
       </div>

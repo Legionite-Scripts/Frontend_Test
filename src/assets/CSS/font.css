@@ -1,5 +1,8 @@
-zz * {
-  font-family: "Libre Franklin", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+  font-family: "Inter", sans-serif;
 }
 h1,
 h2,
@@ -7,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Inter", sans-serif;
   /* color: #1e1e1e; */
   letter-spacing: -1px;
   font-weight: 800;
@@ -23,21 +26,21 @@ h2 {
 }
 
 a {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--body-color);
   font-size: 16px;
 }
 
 p,
 label {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #1e1e1e;
   font-size: 16px;
   line-height: 1.6;
   font-weight: 500;
 }
 input::placeholder {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 @media (max-width: 1000px) {

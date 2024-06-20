@@ -6,7 +6,9 @@
 input {
   padding: 0 1em 0 1em;
 }
-
+select{
+  cursor: pointer;
+}
 button {
   cursor: pointer;
   transition: all 0.3s ease;
@@ -14,7 +16,4 @@ button {
 }
 button:hover {
   transform: scale(1.05);
-}
-.onboarding-bg {
-  background: linear-gradient(to right, #fee0e6, #fff8fa);
 }

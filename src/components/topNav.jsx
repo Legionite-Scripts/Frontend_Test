@@ -1,4 +1,3 @@
-import "../assets/CSS/components.css";
 import notificationIcon from "../assets/Images/nav-icons/notification.png";
 
 function TopNav() {
